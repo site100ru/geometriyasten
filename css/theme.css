@@ -533,6 +533,7 @@ img {
 
 .carousel-content .container {
 	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 @media (max-width: 1440px) {
