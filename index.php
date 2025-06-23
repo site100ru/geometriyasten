@@ -6,19 +6,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!-- Bootstrap CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet" />
 
 		<!-- Theme CSS -->
-		<link href="css/theme.css" rel="stylesheet" />
+		<link href="<?php echo get_template_directory_uri(); ?>/css/theme.css" rel="stylesheet" />
 
 		<!-- FONT CSS -->
-		<link href="css/font.css" rel="stylesheet" />
+		<link href="<?php echo get_template_directory_uri(); ?>/css/font.css" rel="stylesheet" />
 
-		<link rel="shortcut icon" type="image/x-icon" href="img/ico/email-ico.svg" />
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/ico/email-ico.svg" />
 
 		<link
 			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
+			href="https://cdn.jsdelivr.net/npm/@glide<?php echo get_template_directory_uri(); ?>/js/glide/dist/<?php echo get_template_directory_uri(); ?>/css/glide.core.min.css"
 		/>
 
 		<title>Геометрия стен 62 - Ручная и механизированная штукатурка стен</title>
@@ -35,7 +35,7 @@
 								<div
 									class="d-flex align-items-center gap-3 lh-1 nav-link-text location"
 								>
-									<img src="img/ico/location-ico.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" />
 									Город, ул. Улица, д. 30, оф. 12
 								</div>
 							</li>
@@ -43,7 +43,7 @@
 								<div
 									class="d-flex align-items-center gap-3 lh-1 nav-link-text time"
 								>
-									<img src="img/ico/clock-ico.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" />
 									Без выходных с 9:00 до 21:00
 								</div>
 							</li>
@@ -53,28 +53,28 @@
 									data-bs-toggle="modal"
 									data-bs-target="#callbackModal"
 								>
-									<img src="img/ico/callback-ico.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/callback-ico.svg" />
 									Обратный звонок
 								</button>
 							</li>
 
 							<li class="nav-item me-3">
 								<a class="top-menu-tel nav-link marker" href="tel:+79209518178">
-									<img src="img/ico/telephone-2.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telephone-2.svg" />
 									8 (920) 951-81-78
 								</a>
 							</li>
 
 							<li class="nav-item me-3">
 								<a class="top-menu-tel nav-link marker" href="tel:+79209542860">
-									<img src="img/ico/telephone-2.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telephone-2.svg" />
 									8 (920) 954-28-60
 								</a>
 							</li>
 
 							<li class="nav-item">
 								<a class="nav-link ico-button" href="https://t.me/vasilyevr">
-									<img src="img/ico/telegram.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 								</a>
 							</li>
 
@@ -83,13 +83,13 @@
 									class="nav-link ico-button"
 									href="whatsapp://send?phone=+79209518178"
 								>
-									<img src="img/ico/whatsapp.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 								</a>
 							</li>
 
 							<li class="nav-item">
 								<a class="nav-link ico-button" href="https://t.me/vasilyevr">
-									<img src="img/ico/vider.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 								</a>
 							</li>
 						</ul>
@@ -102,7 +102,7 @@
 			>
 				<div class="container">
 					<a class="navbar-brand" href="index.html">
-						<img src="img/logo-dark.svg" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/logo-dark.svg" />
 					</a>
 
 					<div
@@ -116,7 +116,7 @@
 						</a>
 
 						<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0">
-							<img src="img/ico/clock-ico.svg" />
+							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" />
 							Пн-Сб: 10:00-19:00<br />Вс: 10:00-17:00
 						</p>
 					</div>
@@ -141,7 +141,7 @@
 								<a class="nav-link active" href="#carouselMain">Главная</a>
 							</li>
 							<li class="nav-item d-none d-lg-inline">
-								<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 							</li>
 
 							<li class="nav-item">
@@ -149,7 +149,7 @@
 							</li>
 
 							<li class="nav-item d-none d-lg-inline">
-								<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 							</li>
 
 							<li class="nav-item">
@@ -157,7 +157,7 @@
 							</li>
 
 							<li class="nav-item d-none d-lg-inline">
-								<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 							</li>
 
 							<li class="nav-item">
@@ -165,7 +165,7 @@
 							</li>
 
 							<li class="nav-item d-none d-lg-inline">
-								<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 							</li>
 
 							<li class="nav-item">
@@ -186,7 +186,7 @@
 							<li class="nav-item d-lg-none text-dark">
 								<div>
 									<img
-										src="img/ico/location-ico.svg"
+										src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg"
 										style="width: 10px"
 										class="me-1"
 									/>
@@ -198,7 +198,7 @@
 								>
 								<div class="mb-2 d-flex">
 									<img
-										src="img/ico/clock-ico.svg"
+										src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg"
 										style="width: 10px"
 										class="me-1"
 									/>
@@ -210,10 +210,10 @@
 							</li>
 							<li class="nav-item d-lg-none pb-4">
 								<a class="ico-button pe-2" href="whatsapp://send?phone=+79307878068"
-									><img src="img/ico/whatsapp-ico.svg"
+									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-ico.svg"
 								/></a>
 								<a class="ico-button pe-0" href="https://t.me/vasilyevr"
-									><img src="img/ico/telegram-ico.svg"
+									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.svg"
 								/></a>
 							</li>
 							<!-- End mobile menu -->
@@ -228,7 +228,7 @@
 			<nav class="header-nav-bottom navbar navbar-expand-lg navbar-light py-1 py-lg-0">
 				<div class="container">
 					<a class="navbar-brand" href="index.html">
-						<img src="img/logo-dark.svg" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/logo-dark.svg" />
 					</a>
 
 					<div class="d-lg-none">
@@ -243,7 +243,7 @@
 							</a>
 
 							<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0">
-								<img src="img/ico/clock-ico.svg" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" />
 								Пн-Сб: 10:00-19:00<br />Вс: 10:00-17:00
 							</p>
 						</div>
@@ -269,7 +269,7 @@
 								<a class="nav-link active" href="#carouselMain">Главная</a>
 							</li>
 							<li class="nav-item d-none d-lg-inline">
-								<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 							</li>
 
 							<li class="nav-item">
@@ -277,20 +277,20 @@
 							</li>
 
 							<li class="nav-item d-none d-lg-inline">
-								<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#plasters">Виды штукатурки</a>
 							</li>
 							<li class="nav-item d-none d-lg-inline">
-								<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#price">Стоимость</a>
 							</li>
 
 							<li class="nav-item d-none d-lg-inline">
-								<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+								<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#contacts">Контакты</a>
@@ -310,7 +310,7 @@
 							<li class="nav-item d-lg-none text-dark">
 								<div>
 									<img
-										src="img/ico/location-ico.svg"
+										src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg"
 										style="width: 10px"
 										class="me-1"
 									/>
@@ -322,7 +322,7 @@
 								>
 								<div class="mb-2 d-flex">
 									<img
-										src="img/ico/clock-ico.svg"
+										src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg"
 										style="width: 10px; position: relative; top: 2px"
 										class="me-1 mb-2"
 									/>
@@ -334,10 +334,10 @@
 							</li>
 							<li class="nav-item d-lg-none pb-4">
 								<a class="ico-button pe-2" href="whatsapp://send?phone=+79307878068"
-									><img src="img/ico/whatsapp-ico.svg"
+									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-ico.svg"
 								/></a>
 								<a class="ico-button pe-0" href="https://t.me/vasilyevr"
-									><img src="img/ico/telegram-ico.svg"
+									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.svg"
 								/></a>
 							</li>
 							<!-- End mobile menu -->
@@ -369,7 +369,7 @@
 										<div class="row align-items-center ico-wrapper">
 											<div class="col-2 col-lg-3">
 												<img
-													src="img/ico/home-icon-1.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/home-icon-1.svg"
 													class="img-fluid home-ico"
 												/>
 											</div>
@@ -386,7 +386,7 @@
 										<div class="row align-items-center ico-wrapper">
 											<div class="col-2 col-lg-3">
 												<img
-													src="img/ico/home-icon-2.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/home-icon-2.svg"
 													class="img-fluid home-ico"
 												/>
 											</div>
@@ -402,7 +402,7 @@
 										<div class="row align-items-center ico-wrapper">
 											<div class="col-2 col-lg-3">
 												<img
-													src="img/ico/home-icon-3.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/home-icon-3.svg"
 													class="img-fluid home-ico"
 												/>
 											</div>
@@ -419,7 +419,7 @@
 										<div class="row align-items-center ico-wrapper">
 											<div class="col-2 col-lg-3">
 												<img
-													src="img/ico/home-icon-4.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/home-icon-4.svg"
 													class="img-fluid home-ico"
 												/>
 											</div>
@@ -453,7 +453,7 @@
 				<div class="row">
 					<div class="section-title text-center">
 						<h2>Примеры наших работ</h2>
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 					</div>
 
 					<div class="col-12 col-md-6 section-image mb-3">
@@ -474,14 +474,14 @@
 											class="single-product-img approximation img-wrapper position-relative"
 										>
 											<img
-												src="img/single-product-img/single-product-img-1.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-1.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="Работа 1-1"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -496,14 +496,14 @@
 									>
 										<div class="single-product-img approximation">
 											<img
-												src="img/single-product-img/single-product-img-2.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-2.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="Работа 1-2"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -551,14 +551,14 @@
 											class="single-product-img approximation img-wrapper position-relative"
 										>
 											<img
-												src="img/single-product-img/single-product-img-2.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-2.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="Работа 2-1"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -573,14 +573,14 @@
 									>
 										<div class="single-product-img approximation">
 											<img
-												src="img/single-product-img/single-product-img-1.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-1.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="Работа 2-2"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -628,14 +628,14 @@
 											class="single-product-img approximation img-wrapper position-relative"
 										>
 											<img
-												src="img/single-product-img/single-product-img-3.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-3.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="3"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -650,14 +650,14 @@
 									>
 										<div class="single-product-img approximation">
 											<img
-												src="img/single-product-img/single-product-img-2.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-2.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="3-1"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -705,14 +705,14 @@
 											class="single-product-img approximation img-wrapper position-relative"
 										>
 											<img
-												src="img/single-product-img/single-product-img-4.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-4.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="4-1"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -727,14 +727,14 @@
 									>
 										<div class="single-product-img approximation">
 											<img
-												src="img/single-product-img/single-product-img-1.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-1.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="4-2"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -782,14 +782,14 @@
 											class="single-product-img approximation img-wrapper position-relative"
 										>
 											<img
-												src="img/single-product-img/single-product-img-5.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-5.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="5-1"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -804,14 +804,14 @@
 									>
 										<div class="single-product-img approximation">
 											<img
-												src="img/single-product-img/single-product-img-2.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-2.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="5-2"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -859,14 +859,14 @@
 											class="single-product-img approximation img-wrapper position-relative"
 										>
 											<img
-												src="img/single-product-img/single-product-img-6.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-6.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="6-1"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -881,14 +881,14 @@
 									>
 										<div class="single-product-img approximation">
 											<img
-												src="img/single-product-img/single-product-img-1.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-1.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="6-1"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -931,7 +931,7 @@
 				<!-- Левая часть с картинкой (скрывается на мобилках) -->
 				<div class="right-part left-part d-none d-md-block">
 					<img
-						src="img/order-left-gradient-section-bg.jpg"
+						src="<?php echo get_template_directory_uri(); ?>/img/order-left-gradient-section-bg.jpg"
 						alt="Изображение"
 						class="img-cover"
 					/>
@@ -951,7 +951,7 @@
 							бесплатно и не к чему Вас не обязывает.
 						</p>
 
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid img-points" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid img-points" />
 
 						<br />
 
@@ -972,7 +972,7 @@
 											class="nav-link ico-button"
 											href="https://t.me/+79209518178"
 										>
-											<img src="img/ico/telegram.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 										</a>
 									</li>
 
@@ -981,7 +981,7 @@
 											class="nav-link ico-button"
 											href="https://wa.me/79209518178?web=1&amp;app_absent=1"
 										>
-											<img src="img/ico/whatsapp.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 										</a>
 									</li>
 
@@ -990,7 +990,7 @@
 											class="nav-link ico-button"
 											href="https://t.me/+79209518178"
 										>
-											<img src="img/ico/vider.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 										</a>
 									</li>
 								</ul>
@@ -1008,13 +1008,13 @@
 					<div class="section-title text-center">
 						<h2>Механизированная или ручная штукатурка</h2>
 						<p class="lh-1">Что выбрать?</p>
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 					</div>
 
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-3 col-md-2">
-								<img src="img/ico/production-ico.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/production-ico.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<h3 class="advantage-title text-start">
@@ -1039,7 +1039,7 @@
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-3 col-md-2">
-								<img src="img/ico/worker.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/worker.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<h3 class="advantage-title text-start">
@@ -1066,13 +1066,13 @@
 				<div class="row">
 					<div class="section-title text-center">
 						<h2>Что входит в услугу</h2>
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 					</div>
 
 					<div class="col-md-6 col-lg-4 mb-3 mb-md-4 pb-0 pb-md-3">
 						<div class="row align-items-center what-service-text">
 							<div class="col-3 col-md-2 p-0">
-								<img src="img/ico/1.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/1.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<p class="advantage-text text-start">
@@ -1085,7 +1085,7 @@
 					<div class="col-md-6 col-lg-4 mb-3 mb-md-4 pb-0 pb-md-3">
 						<div class="row align-items-center what-service-text">
 							<div class="col-3 col-md-2 p-0">
-								<img src="img/ico/2.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/2.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<p class="advantage-text text-start">
@@ -1098,7 +1098,7 @@
 					<div class="col-md-6 col-lg-4 mb-3 mb-md-4 pb-0 pb-md-3">
 						<div class="row align-items-center what-service-text">
 							<div class="col-3 col-md-2 p-0">
-								<img src="img/ico/3.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/3.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<p class="advantage-text text-start">
@@ -1112,7 +1112,7 @@
 					<div class="col-md-6 col-lg-4 mb-3 mb-md-4 pb-0 pb-md-3">
 						<div class="row align-items-center what-service-text">
 							<div class="col-3 col-md-2 p-0">
-								<img src="img/ico/4.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/4.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<p class="advantage-text text-start">
@@ -1125,7 +1125,7 @@
 					<div class="col-md-6 col-lg-4 mb-3 mb-md-4 pb-0 pb-md-3">
 						<div class="row align-items-center what-service-text">
 							<div class="col-3 col-md-2 p-0">
-								<img src="img/ico/5.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/5.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<p class="advantage-text text-start">
@@ -1138,7 +1138,7 @@
 					<div class="col-md-6 col-lg-4 mb-3 mb-md-4 pb-0 pb-md-3">
 						<div class="row align-items-center what-service-text">
 							<div class="col-3 col-md-2 p-0">
-								<img src="img/ico/6.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/6.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<p class="advantage-text text-start">
@@ -1151,7 +1151,7 @@
 					<div class="col-md-6 col-lg-4 mb-3 mb-md-4 pb-0 pb-md-3">
 						<div class="row align-items-center what-service-text">
 							<div class="col-3 col-md-2 p-0">
-								<img src="img/ico/7.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/7.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10">
 								<p class="advantage-text text-start">Вынос строительного мусора.</p>
@@ -1168,7 +1168,7 @@
 				<div class="row">
 					<div class="section-title text-center">
 						<h2>Стоимость штукатурки стен</h2>
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 					</div>
 
 					<div class="col-md-6 col-lg-3 mb-4">
@@ -1260,7 +1260,7 @@
 				<div class="row">
 					<div class="section-title text-center">
 						<h2>Стоимость дополнительных услуг</h2>
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 					</div>
 
 					<div class="col">
@@ -1302,7 +1302,7 @@
 				<!-- Правая часть с картинкой (скрывается на мобилках) -->
 				<div class="right-part d-none d-md-block">
 					<img
-						src="img/order-left-gradient-section-bg-two.jpg"
+						src="<?php echo get_template_directory_uri(); ?>/img/order-left-gradient-section-bg-two.jpg"
 						alt="Изображение"
 						class="img-cover"
 					/>
@@ -1319,7 +1319,7 @@
 							сделаем Вам предложение еще выгоднее!
 						</p>
 
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid img-points" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid img-points" />
 
 						<br />
 
@@ -1340,7 +1340,7 @@
 											class="nav-link ico-button"
 											href="https://t.me/+79209518178"
 										>
-											<img src="img/ico/telegram.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 										</a>
 									</li>
 
@@ -1349,7 +1349,7 @@
 											class="nav-link ico-button"
 											href="https://wa.me/79209518178?web=1&amp;app_absent=1"
 										>
-											<img src="img/ico/whatsapp.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 										</a>
 									</li>
 
@@ -1358,7 +1358,7 @@
 											class="nav-link ico-button"
 											href="https://t.me/+79209518178"
 										>
-											<img src="img/ico/vider.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 										</a>
 									</li>
 								</ul>
@@ -1377,7 +1377,7 @@
 				<div class="row justify-content-center">
 					<div class="section-title text-center">
 						<h2>О нас</h2>
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 					</div>
 
 					<div class="col-12 col-md-6 mb-4 mb-md-0 section-image">
@@ -1398,14 +1398,14 @@
 											class="single-product-img approximation img-wrapper position-relative"
 										>
 											<img
-												src="img/about.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/about.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="О нашей компании"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -1420,14 +1420,14 @@
 									>
 										<div class="single-product-img approximation">
 											<img
-												src="img/single-product-img/single-product-img-1.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/img/single-product-<?php echo get_template_directory_uri(); ?>/img/single-product-img-1.jpg"
 												class="d-block w-100"
 												loading="lazy"
 												alt="Наша команда"
 											/>
 											<div class="overlay">
 												<img
-													src="img/ico/zoom-icon.svg"
+													src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg"
 													alt="Zoom"
 													class="zoom-icon"
 												/>
@@ -1482,13 +1482,13 @@
 				<div class="row">
 					<div class="section-title text-center">
 						<h2>Наши преимущества</h2>
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 					</div>
 
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-3 col-md-2">
-								<img src="img/ico/checkbox.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/checkbox.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10 align-content-center">
 								<h3 class="advantage-title text-start">Глянцевание</h3>
@@ -1501,7 +1501,7 @@
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-3 col-md-2">
-								<img src="img/ico/checkbox.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/checkbox.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10 align-content-center">
 								<h3 class="advantage-title text-start">Качественные материалы</h3>
@@ -1514,7 +1514,7 @@
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-3 col-md-2">
-								<img src="img/ico/checkbox.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/checkbox.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10 align-content-center">
 								<h3 class="advantage-title text-start">Чистота на объекте</h3>
@@ -1527,7 +1527,7 @@
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-3 col-md-2">
-								<img src="img/ico/checkbox.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/checkbox.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10 align-content-center">
 								<h3 class="advantage-title text-start">
@@ -1543,7 +1543,7 @@
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-3 col-md-2">
-								<img src="img/ico/checkbox.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/checkbox.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10 align-content-center">
 								<h3 class="advantage-title text-start">Опыт работы более 10 лет</h3>
@@ -1557,7 +1557,7 @@
 					<div class="col-lg-6 mb-4">
 						<div class="row">
 							<div class="col-3 col-md-2">
-								<img src="img/ico/checkbox.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/checkbox.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 col-md-10 align-content-center">
 								<h3 class="advantage-title text-start">
@@ -1580,7 +1580,7 @@
 					<div class="section-title text-center">
 						<h3>Как заказать</h3>
 						<img
-							src="img/ico/points.svg"
+							src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg"
 							alt="Описание изображения"
 							class="img-fluid"
 						/>
@@ -1590,10 +1590,10 @@
 						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
 							<div class="row align-items-center">
 								<div class="col-4 text-center">
-									<img src="img/ico/1_black.svg" class="img-fluid" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/1_black.svg" class="img-fluid" />
 								</div>
 								<div class="col-4">
-									<img src="img/ico/how-order-1.svg" class="img-fluid" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/how-order-1.svg" class="img-fluid" />
 								</div>
 							</div>
 							<div class="row pt-3">
@@ -1609,10 +1609,10 @@
 						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
 							<div class="row align-items-center">
 								<div class="col-4 text-center">
-									<img src="img/ico/2_black.svg" class="img-fluid" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/2_black.svg" class="img-fluid" />
 								</div>
 								<div class="col-4 text-start">
-									<img src="img/ico/how-order-2.svg" class="img-fluid" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/how-order-2.svg" class="img-fluid" />
 								</div>
 							</div>
 							<div class="row pt-3">
@@ -1627,10 +1627,10 @@
 						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
 							<div class="row align-items-center">
 								<div class="col-4 text-center">
-									<img src="img/ico/3_black.svg" class="img-fluid" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/3_black.svg" class="img-fluid" />
 								</div>
 								<div class="col-4">
-									<img src="img/ico/how-order-3.svg" class="img-fluid" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/how-order-3.svg" class="img-fluid" />
 								</div>
 							</div>
 							<div class="row pt-3">
@@ -1643,10 +1643,10 @@
 						<div class="col-md-6 col-lg-3 mb-0">
 							<div class="row align-items-center">
 								<div class="col-4 text-center">
-									<img src="img/ico/4_black.svg" class="img-fluid" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/4_black.svg" class="img-fluid" />
 								</div>
 								<div class="col-4">
-									<img src="img/ico/how-order-4.svg" class="img-fluid" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/how-order-4.svg" class="img-fluid" />
 								</div>
 							</div>
 							<div class="row pt-3">
@@ -1669,13 +1669,13 @@
 				<div class="row justify-content-lg-center">
 					<div class="section-title text-center">
 						<h2>Требования к помещению</h2>
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 					</div>
 
 					<div class="col-md-6 col-lg-4 mb-4">
 						<div class="row">
 							<div class="col-3">
-								<img src="img/ico/advantage-1.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/advantage-1.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 align-content-center">
 								<h3 class="advantage-title text-start">Вода</h3>
@@ -1690,7 +1690,7 @@
 					<div class="col-md-6 col-lg-4 mb-4">
 						<div class="row">
 							<div class="col-3">
-								<img src="img/ico/advantage-2.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/advantage-2.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 align-content-center">
 								<h3 class="advantage-title text-start">Электричество</h3>
@@ -1705,7 +1705,7 @@
 					<div class="col-md-6 col-lg-4 mb-4">
 						<div class="row">
 							<div class="col-3">
-								<img src="img/ico/advantage-3.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/advantage-3.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 align-content-center">
 								<h3 class="advantage-title text-start">Температура</h3>
@@ -1720,7 +1720,7 @@
 					<div class="col-md-6 col-lg-4 mb-4">
 						<div class="row">
 							<div class="col-3">
-								<img src="img/ico/advantage-4.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/advantage-4.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 align-content-center">
 								<h3 class="advantage-title text-start">Канализация</h3>
@@ -1732,7 +1732,7 @@
 					<div class="col-md-6 col-lg-4 mb-4">
 						<div class="row">
 							<div class="col-3">
-								<img src="img/ico/advantage-5.svg" class="img-fluid" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/advantage-5.svg" class="img-fluid" />
 							</div>
 							<div class="col-9 align-content-center">
 								<h3 class="advantage-title text-start">Охрана объекта</h3>
@@ -1753,7 +1753,7 @@
 			<div class="container">
 				<div class="section-title text-center">
 					<h2>Частые вопросы</h2>
-					<img src="img/ico/points.svg" alt="Точки" class="img-fluid" />
+					<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid" />
 				</div>
 
 				<div class="col-lg-10 text-center mx-auto">
@@ -1887,7 +1887,7 @@
 				<!-- Левая часть с картинкой (скрывается на мобилках) -->
 				<div class="right-part left-part d-none d-md-block">
 					<img
-						src="img/order-left-gradient-section-bg-free.jpg"
+						src="<?php echo get_template_directory_uri(); ?>/img/order-left-gradient-section-bg-free.jpg"
 						alt="Изображение"
 						class="img-cover"
 					/>
@@ -1908,7 +1908,7 @@
 							к чему Вас не обязывает.
 						</p>
 
-						<img src="img/ico/points.svg" alt="Точки" class="img-fluid img-points" />
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ico/points.svg" alt="Точки" class="img-fluid img-points" />
 
 						<br />
 
@@ -1929,7 +1929,7 @@
 											class="nav-link ico-button"
 											href="https://t.me/+79209518178"
 										>
-											<img src="img/ico/telegram.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 										</a>
 									</li>
 
@@ -1938,7 +1938,7 @@
 											class="nav-link ico-button"
 											href="https://wa.me/79209518178?web=1&amp;app_absent=1"
 										>
-											<img src="img/ico/whatsapp.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 										</a>
 									</li>
 
@@ -1947,7 +1947,7 @@
 											class="nav-link ico-button"
 											href="https://t.me/+79209518178"
 										>
-											<img src="img/ico/vider.svg" />
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 										</a>
 									</li>
 								</ul>
@@ -1965,7 +1965,7 @@
 				<div class="row align-items-center">
 					<div class="col-xl-2">
 						<a href="#">
-							<img id="navbar-brand-img" src="img/logo-light.svg" class="img-fluid" />
+							<img id="navbar-brand-img" src="<?php echo get_template_directory_uri(); ?>/img/logo-light.svg" class="img-fluid" />
 						</a>
 					</div>
 					<div class="col-xl-8">
@@ -1978,7 +1978,7 @@
 								</li>
 
 								<li class="nav-item d-none d-lg-inline">
-									<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+									<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 								</li>
 
 								<li class="nav-item">
@@ -1986,7 +1986,7 @@
 								</li>
 
 								<li class="nav-item d-none d-lg-inline">
-									<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+									<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 								</li>
 
 								<li class="nav-item">
@@ -1994,7 +1994,7 @@
 								</li>
 
 								<li class="nav-item d-none d-lg-inline">
-									<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+									<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 								</li>
 
 								<li class="nav-item">
@@ -2002,7 +2002,7 @@
 								</li>
 
 								<li class="nav-item d-none d-lg-inline">
-									<img class="nav-link" src="img/ico/menu-decoration-point.svg" />
+									<img class="nav-link" src="<?php echo get_template_directory_uri(); ?>/img/ico/menu-decoration-point.svg" />
 								</li>
 
 								<li class="nav-item">
@@ -2025,7 +2025,7 @@
 								<div
 									class="d-flex align-items-center gap-3 lh-1 nav-link-text maps"
 								>
-									<img src="img/ico/location-ico.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" />
 									гор. Москва, ул. Митинская, д. 43
 								</div>
 							</li>
@@ -2033,7 +2033,7 @@
 								<div
 									class="d-flex align-items-center gap-3 lh-1 nav-link-text time"
 								>
-									<img src="img/ico/clock-ico.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" />
 									Без выходных с 9:00 до 21:00
 								</div>
 							</li>
@@ -2043,7 +2043,7 @@
 									class="nav-link d-flex align-items-center gap-3 lh-1"
 									href="mailto:v-liga62@mail.ru"
 								>
-									<img src="img/ico/email-ico.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/email-ico.svg" />
 									v-liga62@mail.ru
 								</a>
 							</li>
@@ -2054,7 +2054,7 @@
 									data-bs-toggle="modal"
 									data-bs-target="#callbackModal"
 								>
-									<img src="img/ico/callback-ico.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/callback-ico.svg" />
 									<span>Обратный звонок</span>
 								</button>
 							</li>
@@ -2064,7 +2064,7 @@
 									class="nav-link d-flex align-items-center gap-3 lh-1 tel"
 									href="tel:+79209542860"
 								>
-									<img src="img/ico/telephone-2.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telephone-2.svg" />
 									8 (920) 954-28-60
 								</a>
 							</li>
@@ -2077,17 +2077,17 @@
 						<ul class="nav justify-content-center">
 							<li class="nav-item">
 								<a class="nav-link ico-button px-2" href="">
-									<img src="img/ico/whatsapp.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link ico-button px-2" href="">
-									<img src="img/ico/telegram.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link ico-button px-2" href="">
-									<img src="img/ico/instagram.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/instagram.svg" />
 								</a>
 							</li>
 						</ul>
@@ -2101,16 +2101,16 @@
 				<div class="row">
 					<div class="col py-5">
 						<a href="#">
-							<img id="navbar-brand-img" src="img/logo-light.svg" class="img-fluid" />
+							<img id="navbar-brand-img" src="<?php echo get_template_directory_uri(); ?>/img/logo-light.svg" class="img-fluid" />
 						</a>
 						<ul class="ps-0 pt-5 pt-md-3 pb-2 navbar-nav">
 							<div class="ps-0 pb-2">
-								<img src="img/ico/location-ico.svg" class="me-2" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" class="me-2" />
 								<span> гор. Рязань, Касимовское ш., 8</span>
 							</div>
 
 							<div class="ps-0 py-2">
-								<img src="img/ico/clock-ico.svg" class="me-2" />
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" class="me-2" />
 								<span> Пн-Пт: с 10:00-18:00 Сб, Вс - Выходной</span>
 							</div>
 
@@ -2119,7 +2119,7 @@
 									href="mailto:v-liga62@mail.ru"
 									class="nav-link ps-0 py-2 footer-mail"
 								>
-									<img src="img/ico/email-ico.svg" class="me-2" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/email-ico.svg" class="me-2" />
 									v-liga62@mail.ru
 								</a>
 							</li>
@@ -2129,7 +2129,7 @@
 									data-bs-toggle="modal"
 									data-bs-target="#callbackModal"
 								>
-									<img src="img/ico/callback-ico.svg" class="me-2" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/callback-ico.svg" class="me-2" />
 									Обратный звонок
 								</button>
 							</li>
@@ -2140,17 +2140,17 @@
 						<ul class="nav pt-4 pb-3">
 							<li class="nav-item">
 								<a class="nav-link ico-button px-2" href="">
-									<img src="img/ico/whatsapp.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link ico-button px-2" href="">
-									<img src="img/ico/telegram.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link ico-button px-2" href="">
-									<img src="img/ico/instagram.svg" />
+									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/instagram.svg" />
 								</a>
 							</li>
 						</ul>
@@ -2493,15 +2493,15 @@
 			});
 		</script>
 
-		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.bundle.min.js"></script>
 
 		<!-- jQuery -->
-		<script src="js/jquery-1.5.1.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.5.1.min.js"></script>
 
 		<!-- Menu -->
-		<script src="js/menu-scroll.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/menu-scroll.js"></script>
 
-		<script src="js/inputmask.min.js"></script>
-		<script src="js/telMask.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/inputmask.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/telMask.js"></script>
 	</body>
 </html>
