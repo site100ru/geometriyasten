@@ -502,12 +502,23 @@ img {
 
 @media (max-width: 992px) {
 	.carousel-background {
-		background-position: 80%;
-		height: calc(100% - 100px);
-		margin-top: auto;
+		background-position: left;
 		place-self: anchor-center;
 		background-size: cover;
+		position: relative;
 	}
+
+	.carousel-background::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
+
 }
 
 @media (max-width: 768px) {

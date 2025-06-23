@@ -110,7 +110,7 @@
 							8 (952) 129-55-55
 						</a>
 
-						<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0">
+						<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0 times">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" />
 								Без выходных с 9:00 до 21:00
 						</p>
