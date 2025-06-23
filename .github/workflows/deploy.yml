@@ -15,5 +15,5 @@ jobs:
           username: ${{ secrets.REGRU_USER }}
           key: ${{ secrets.REGRU_KEY }}
           script: |
-            cd /var/www/u1538455/data/www/geometriyasten62.ru
+            cd /var/www/u1538455/data/www/geometriyasten62.ru/wp-content/themes/geometriyasten
             git pull
