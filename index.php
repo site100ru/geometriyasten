@@ -36,7 +36,7 @@
 									class="d-flex align-items-center gap-3 lh-1 nav-link-text location"
 								>
 									<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" />
-									Город, ул. Улица, д. 30, оф. 12
+									гор. Москва, ул. Митинская, д. 43
 								</div>
 							</li>
 							<li class="nav-item me-3">
@@ -117,7 +117,7 @@
 
 						<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" />
-							Пн-Сб: 10:00-19:00<br />Вс: 10:00-17:00
+								Без выходных с 9:00 до 21:00
 						</p>
 					</div>
 
@@ -190,7 +190,7 @@
 										style="width: 10px"
 										class="me-1"
 									/>
-									<span> гор. Рязань, Касимовское ш., 8</span>
+									<span>гор. Москва, ул. Митинская, д. 43</span>
 								</div>
 
 								<a class="top-menu-tel nav-link fw-bold" href="tel:84912555505"
@@ -203,17 +203,16 @@
 										class="me-1"
 									/>
 									<div>
-										Пн-Сб: 10:00-19:00 <br />
-										Вс: 10:00-17:00
+									Без выходных с 9:00 до 21:00
 									</div>
 								</div>
 							</li>
 							<li class="nav-item d-lg-none pb-4">
 								<a class="ico-button pe-2" href="whatsapp://send?phone=+79307878068"
-									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-ico.svg"
+									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg"
 								/></a>
 								<a class="ico-button pe-0" href="https://t.me/vasilyevr"
-									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.svg"
+									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg"
 								/></a>
 							</li>
 							<!-- End mobile menu -->
@@ -244,7 +243,7 @@
 
 							<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" />
-								Пн-Сб: 10:00-19:00<br />Вс: 10:00-17:00
+									Без выходных с 9:00 до 21:00
 							</p>
 						</div>
 					</div>
@@ -308,36 +307,35 @@
 								</button>
 							</li>
 							<li class="nav-item d-lg-none text-dark">
-								<div>
+								<div class="local-header">
 									<img
 										src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg"
 										style="width: 10px"
 										class="me-1"
 									/>
-									<span> гор. Рязань, Касимовское ш., 8</span>
+									<span>гор. Москва, ул. Митинская, д. 43</span>
 								</div>
 
 								<a class="top-menu-tel nav-link" href="tel:84912555505"
 									>8 (491) 2555-55-05</a
 								>
-								<div class="mb-2 d-flex">
+								<div class="mb-2 d-flex time-header-icon">
 									<img
 										src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg"
 										style="width: 10px; position: relative; top: 2px"
 										class="me-1 mb-2"
 									/>
-									<div>
-										Пн-Сб: 10:00-19:00 <br />
-										Вс: 10:00-17:00
+									<div class="time-header">
+										<span>Без выходных с 9:00 до 21:00</span>
 									</div>
 								</div>
 							</li>
 							<li class="nav-item d-lg-none pb-4">
 								<a class="ico-button pe-2" href="whatsapp://send?phone=+79307878068"
-									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-ico.svg"
+									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg"
 								/></a>
 								<a class="ico-button pe-0" href="https://t.me/vasilyevr"
-									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.svg"
+									><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg"
 								/></a>
 							</li>
 							<!-- End mobile menu -->
@@ -2106,12 +2104,12 @@
 						<ul class="ps-0 pt-5 pt-md-3 pb-2 navbar-nav">
 							<div class="ps-0 pb-2">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" class="me-2" />
-								<span> гор. Рязань, Касимовское ш., 8</span>
+								<span>гор. Москва, ул. Митинская, д. 43</span>
 							</div>
 
 							<div class="ps-0 py-2">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" class="me-2" />
-								<span> Пн-Пт: с 10:00-18:00 Сб, Вс - Выходной</span>
+								<span>Без выходных с 9:00 до 21:00</span>
 							</div>
 
 							<li class="nav-item">
