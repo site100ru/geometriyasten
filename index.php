@@ -14,7 +14,7 @@
 		<!-- FONT CSS -->
 		<link href="<?php echo get_template_directory_uri(); ?>/css/font.css" rel="stylesheet" />
 
-		<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/ico/email-ico.svg" />
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.svg" />
 
 		<title>Геометрия стен 62 - Ручная и механизированная штукатурка стен</title>
 	</head>
@@ -236,7 +236,7 @@
 								8 (952) 129-55-55
 							</a>
 
-							<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0">
+							<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0 times">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" />
 									Без выходных с 9:00 до 21:00
 							</p>
