@@ -202,7 +202,7 @@ img {
 .btn:hover {
 	color: var(--color-accent-hover);
 	border: 1px solid var(--bs-btn-active-border-color);
-	background: #fff;
+	background: transparent;
 
 	border-radius: 5px;
 }
@@ -1031,16 +1031,6 @@ img {
 }
 
 #callbackModal p {
-	color: var(--dark-color);
-}
-
-#callbackModal .btn-corporate-color-1 {
-	background-color: var(--color-accent);
-	transition: all 0.5s;
-}
-
-#callbackModal .btn-corporate-color-1:hover {
-	background: var(--color-accent-hover);
 	color: var(--dark-color);
 }
 

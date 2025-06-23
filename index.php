@@ -2230,7 +2230,7 @@
 					<div class="modal-body">
 						<div class="row">
 							<div class="col">
-								<p>
+								<p class="mb-3">
 									<small
 										>Мы свяжемся с Вами в ближайшее время и ответим на все
 										вопросы! Для звонка введите Ваше имя и телефон.</small
