@@ -16,11 +16,6 @@
 
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/ico/email-ico.svg" />
 
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/@glide<?php echo get_template_directory_uri(); ?>/js/glide/dist/<?php echo get_template_directory_uri(); ?>/css/glide.core.min.css"
-		/>
-
 		<title>Геометрия стен 62 - Ручная и механизированная штукатурка стен</title>
 	</head>
 	<body>
@@ -184,7 +179,7 @@
 								</button>
 							</li>
 							<li class="nav-item d-lg-none text-dark">
-								<div>
+								<div class="local-header">
 									<img
 										src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg"
 										style="width: 10px"
@@ -196,14 +191,14 @@
 								<a class="top-menu-tel nav-link fw-bold" href="tel:84912555505"
 									>8 (491) 2555-55-05</a
 								>
-								<div class="mb-2 d-flex">
+								<div class="mb-2 d-flex time-header-icon">
 									<img
 										src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg"
 										style="width: 10px"
 										class="me-1"
 									/>
-									<div>
-									Без выходных с 9:00 до 21:00
+									<div class="time-header">
+										<span>Без выходных с 9:00 до 21:00</span>
 									</div>
 								</div>
 							</li>
@@ -2329,8 +2324,6 @@
 				aria-label="Close"
 			></button>
 		</div>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 		<script>
 			let modalCarousel = null;
