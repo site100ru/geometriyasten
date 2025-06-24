@@ -29,7 +29,7 @@
 						<li class="nav-item me-3">
 							<div class="d-flex align-items-center gap-3 lh-1 nav-link-text location">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" />
-								гор. Рязань, ул.  Типанова 2
+								гор. Рязань, ул. Типанова 2
 							</div>
 						</li>
 						<li class="nav-item me-3">
@@ -61,19 +61,19 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link ico-button" href="https://t.me/vasilyevr">
+							<a class="nav-link ico-button" target="_blank" href="https://t.me/+79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 							</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link ico-button" href="whatsapp://send?phone=+79209518178">
+							<a class="nav-link ico-button" target="_blank" href="whatsapp://send?phone=+79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 							</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link ico-button" href="https://t.me/vasilyevr">
+							<a class="nav-link ico-button" target="_blank" href="https://viber.click/79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 							</a>
 						</li>
@@ -89,11 +89,11 @@
 				</a>
 
 				<div class="d-none d-sm-block d-lg-none flex-column top-menu-tel-wrapper gap-1 my-2">
-					<a class="top-menu-tel nav-link" href="tel:84912555505">
-						8 (491) 2555-55-05
+					<a class="top-menu-tel nav-link" href="tel:+79209518178">
+						+7 920 951-81-78
 					</a>
-					<a class="top-menu-tel nav-link" href="tel:89521295555">
-						8 (952) 129-55-55
+					<a class="top-menu-tel nav-link" href="tel:+79209518178">
+						+7 920 951-81-78
 					</a>
 
 					<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0 times">
@@ -160,10 +160,10 @@
 							<div class="local-header">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" style="width: 10px"
 									class="me-1" />
-								<span>гор. Рязань, ул.  Типанова 2</span>
+								<span>гор. Рязань, ул. Типанова 2</span>
 							</div>
 
-							<a class="top-menu-tel nav-link fw-bold" href="tel:84912555505">8 (491) 2555-55-05</a>
+							<a class="top-menu-tel nav-link fw-bold" href="tel:79209518178">+7 920 951-81-78</a>
 							<div class="mb-2 d-flex time-header-icon">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" style="width: 10px"
 									class="me-1" />
@@ -173,10 +173,12 @@
 							</div>
 						</li>
 						<li class="nav-item d-lg-none pb-4">
-							<a class="ico-button pe-2" href="whatsapp://send?phone=+79307878068"><img
-									src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" /></a>
-							<a class="ico-button pe-0" href="https://t.me/vasilyevr"><img
+							<a class="ico-button pe-2" target="_blank" href="https://t.me/+79209518178"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" /></a>
+							<a class="ico-button pe-2" target="_blank" href="whatsapp://send?phone=+79209518178"><img
+									src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" /></a>
+							<a class="ico-button pe-0" target="_blank" href="https://viber.click/79209518178"><img
+									src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" /></a>
 						</li>
 						<!-- End mobile menu -->
 					</ul>
@@ -195,11 +197,11 @@
 
 				<div class="d-lg-none">
 					<div class="d-none d-sm-block d-lg-none flex-column top-menu-tel-wrapper gap-1 my-2">
-						<a class="top-menu-tel nav-link" href="tel:84912555505">
-							8 (491) 2555-55-05
+						<a class="top-menu-tel nav-link" href="tel:+79209518178">
+							+7 920 951-81-78
 						</a>
-						<a class="top-menu-tel nav-link" href="tel:89521295555">
-							8 (952) 129-55-55
+						<a class="top-menu-tel nav-link" href="tel:+79209518178">
+							+7 920 951-81-78
 						</a>
 
 						<p class="nav-link d-flex align-items-center gap-3 lh-1 mb-0 times">
@@ -263,10 +265,10 @@
 							<div class="local-header">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" style="width: 10px"
 									class="me-1" />
-								<span>гор. Рязань, ул.  Типанова 2</span>
+								<span>гор. Рязань, ул. Типанова 2</span>
 							</div>
 
-							<a class="top-menu-tel nav-link" href="tel:84912555505">8 (491) 2555-55-05</a>
+							<a class="top-menu-tel nav-link" href="tel:+79209518178">+7 920 951-81-78</a>
 							<div class="mb-2 d-flex time-header-icon">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg"
 									style="width: 10px; position: relative; top: 2px" class="me-1 mb-2" />
@@ -276,10 +278,13 @@
 							</div>
 						</li>
 						<li class="nav-item d-lg-none pb-4">
-							<a class="ico-button pe-2" href="whatsapp://send?phone=+79307878068"><img
-									src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" /></a>
-							<a class="ico-button pe-0" href="https://t.me/vasilyevr"><img
+
+							<a class="ico-button pe-2" target="_blank" href="https://t.me/+79209518178"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" /></a>
+							<a class="ico-button pe-2" target="_blank" href="whatsapp://send?phone=+79209518178"><img
+									src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" /></a>
+							<a class="ico-button pe-0" target="_blank" href="https://viber.click/79209518178"><img
+									src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" /></a>
 						</li>
 						<!-- End mobile menu -->
 					</ul>
@@ -538,19 +543,19 @@
 						<div class="col">
 							<ul class="nav gap-3">
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://t.me/+79209518178">
+									<a class="nav-link ico-button" target="_blank" href="https://t.me/+79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://wa.me/79209518178?web=1&amp;app_absent=1">
+									<a class="nav-link ico-button" target="_blank" href="whatsapp://send?phone=+79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://t.me/+79209518178">
+									<a class="nav-link ico-button" target="_blank" href="https://viber.click/79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 									</a>
 								</li>
@@ -866,19 +871,19 @@
 						<div class="col">
 							<ul class="nav justify-content-md-end gap-3">
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://t.me/+79209518178">
+									<a class="nav-link ico-button" target="_blank" href="https://t.me/+79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://wa.me/79209518178?web=1&amp;app_absent=1">
+									<a class="nav-link ico-button" target="_blank" href="whatsapp://send?phone=+79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://t.me/+79209518178">
+									<a class="nav-link ico-button" target="_blank" href="https://viber.click/79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 									</a>
 								</li>
@@ -1332,19 +1337,19 @@
 						<div class="col">
 							<ul class="nav gap-3">
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://t.me/+79209518178">
+									<a class="nav-link ico-button" target="_blank" href="https://t.me/+79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://wa.me/79209518178?web=1&amp;app_absent=1">
+									<a class="nav-link ico-button" target="_blank" href="whatsapp://send?phone=+79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 									</a>
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" href="https://t.me/+79209518178">
+									<a class="nav-link ico-button" target="_blank" href="https://viber.click/79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 									</a>
 								</li>
@@ -1425,7 +1430,7 @@
 						<li class="nav-item me-3">
 							<div class="d-flex align-items-center gap-3 lh-1 nav-link-text maps">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" />
-								гор. Рязань, ул.  Типанова 2
+								гор. Рязань, ул. Типанова 2
 							</div>
 						</li>
 						<li class="nav-item me-3">
@@ -1464,18 +1469,18 @@
 				<div class="col">
 					<ul class="nav justify-content-center">
 						<li class="nav-item">
-							<a class="nav-link ico-button px-2" href="">
+							<a class="nav-link ico-button px-2" target="_blank" href="whatsapp://send?phone=+79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link ico-button px-2" href="">
+							<a class="nav-link ico-button px-2" target="_blank" href="https://t.me/+79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link ico-button px-2" href="">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/instagram.svg" />
+							<a class="nav-link ico-button px-2" target="_blank" href="https://viber.click/79209518178">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 							</a>
 						</li>
 					</ul>
@@ -1495,7 +1500,7 @@
 					<ul class="ps-0 pt-5 pt-md-3 pb-2 navbar-nav">
 						<div class="ps-0 pb-2">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/location-ico.svg" class="me-2" />
-							<span>гор. Рязань, ул.  Типанова 2</span>
+							<span>гор. Рязань, ул. Типанова 2</span>
 						</div>
 
 						<div class="ps-0 py-2">
@@ -1521,18 +1526,18 @@
 					</a>
 					<ul class="nav pt-4 pb-3">
 						<li class="nav-item">
-							<a class="nav-link ico-button px-2" href="">
+							<a class="nav-link ico-button px-2" target="_blank" href="whatsapp://send?phone=+79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link ico-button px-2" href="">
+							<a class="nav-link ico-button px-2" target="_blank" href="https://t.me/+79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link ico-button px-2" href="">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/instagram.svg" />
+							<a class="nav-link ico-button px-2" target="_blank" href="https://viber.click/79209518178	">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 							</a>
 						</li>
 					</ul>
@@ -1577,7 +1582,7 @@
 					<div class="col text-start text-md-center">
 						<div id="im-in-footer">
 							Создание, продвижение и поддержка:
-							<a href="https://site100.ru/" class="text-light text-decoration-underline">site100.ru</a>
+							<a href="https://site100.ru/" target="_blank" class="text-light text-decoration-underline">site100.ru</a>
 						</div>
 					</div>
 				</div>
