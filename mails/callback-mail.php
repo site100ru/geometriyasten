@@ -25,6 +25,7 @@
 		
 		// Отправляем на email
 		$email_sent = mail("sidorov-vv3@mail.ru", "Заявка на вызов специалиста с сайта geometriyasten62.ru", $email_message);
+		$email_sent = mail("vasilyev-r@mail.ru", "Заявка на вызов специалиста с сайта geometriyasten62.ru", $email_message);
 		
 		// Отправляем в Telegram
 		$telegram_url = "https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&text=" . urlencode($message);
