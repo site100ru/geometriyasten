@@ -197,6 +197,7 @@ img {
 	z-index: 1;
 	background: var(--color-accent);
 	transition: all 0.5s;
+	border: 1px solid transparent;
 }
 
 .btn:hover {
@@ -1041,7 +1042,6 @@ img {
 .btn-corporate-color-1 {
 	background-color: var(--color-accent);
 	color: #fff;
-	border: none;
 }
 
 /*** ICO BUTTON ***/
