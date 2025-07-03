@@ -119,9 +119,9 @@ window.addEventListener('scroll', function () {
 
 При возникновении вопросов или предложений:
 
-- 📧 Email: v-liga62@mail.ru
+- 📧 Email: vasilyev-r@mail.ru
 - 📱 Telegram: [@vasilyevr](https://t.me/vasilyevr)
-- ☎️ Телефон: 8 (920) 951-81-78
+- ☎️ Телефон: 8 (930) 78-78-0-68
 
 ## 📜 Лицензия
 
