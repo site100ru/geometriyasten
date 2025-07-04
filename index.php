@@ -67,16 +67,17 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link ico-button" target="_blank" href="whatsapp://send?phone=+79209518178">
+							<a class="nav-link ico-button" target="_blank"
+								href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 							</a>
 						</li>
 
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<a class="nav-link ico-button" target="_blank" href="https://viber.click/79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 							</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>
@@ -175,10 +176,11 @@
 						<li class="nav-item d-lg-none pb-4">
 							<a class="ico-button pe-2" target="_blank" href="https://t.me/+79209518178"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" /></a>
-							<a class="ico-button pe-2" target="_blank" href="whatsapp://send?phone=+79209518178"><img
+							<a class="ico-button pe-2" target="_blank"
+								href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" /></a>
-							<a class="ico-button pe-0" target="_blank" href="https://viber.click/79209518178"><img
-									src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" /></a>
+							<!-- <a class="ico-button pe-0" target="_blank" href="https://viber.click/79209518178"><img
+									src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" /></a> -->
 						</li>
 						<!-- End mobile menu -->
 					</ul>
@@ -281,10 +283,11 @@
 
 							<a class="ico-button pe-2" target="_blank" href="https://t.me/+79209518178"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" /></a>
-							<a class="ico-button pe-2" target="_blank" href="whatsapp://send?phone=+79209518178"><img
+							<a class="ico-button pe-2" target="_blank"
+								href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" /></a>
-							<a class="ico-button pe-0" target="_blank" href="https://viber.click/79209518178"><img
-									src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" /></a>
+							<!-- <a class="ico-button pe-0" target="_blank" href="https://viber.click/79209518178"><img
+									src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" /></a> -->
 						</li>
 						<!-- End mobile menu -->
 					</ul>
@@ -549,16 +552,17 @@
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" target="_blank" href="whatsapp://send?phone=+79209518178">
+									<a class="nav-link ico-button" target="_blank"
+										href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 									</a>
 								</li>
 
-								<li class="nav-item">
+								<!-- <li class="nav-item">
 									<a class="nav-link ico-button" target="_blank" href="https://viber.click/79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 									</a>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 					</div>
@@ -877,16 +881,17 @@
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" target="_blank" href="whatsapp://send?phone=+79209518178">
+									<a class="nav-link ico-button" target="_blank"
+										href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 									</a>
 								</li>
 
-								<li class="nav-item">
+								<!-- <li class="nav-item">
 									<a class="nav-link ico-button" target="_blank" href="https://viber.click/79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 									</a>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 					</div>
@@ -1343,16 +1348,17 @@
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link ico-button" target="_blank" href="whatsapp://send?phone=+79209518178">
+									<a class="nav-link ico-button" target="_blank"
+										href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 									</a>
 								</li>
 
-								<li class="nav-item">
+								<!-- <li class="nav-item">
 									<a class="nav-link ico-button" target="_blank" href="https://viber.click/79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 									</a>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 					</div>
@@ -1469,7 +1475,8 @@
 				<div class="col">
 					<ul class="nav justify-content-center">
 						<li class="nav-item">
-							<a class="nav-link ico-button px-2" target="_blank" href="whatsapp://send?phone=+79209518178">
+							<a class="nav-link ico-button px-2" target="_blank"
+								href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 							</a>
 						</li>
@@ -1478,11 +1485,11 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 							</a>
 						</li>
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<a class="nav-link ico-button px-2" target="_blank" href="https://viber.click/79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 							</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>
@@ -1526,7 +1533,8 @@
 					</a>
 					<ul class="nav pt-4 pb-3">
 						<li class="nav-item">
-							<a class="nav-link ico-button px-2" target="_blank" href="whatsapp://send?phone=+79209518178">
+							<a class="nav-link ico-button px-2" target="_blank"
+								href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
 							</a>
 						</li>
@@ -1535,11 +1543,11 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 							</a>
 						</li>
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<a class="nav-link ico-button px-2" target="_blank" href="https://viber.click/79209518178	">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
 							</a>
-						</li>
+						</li> -->
 					</ul>
 					<div class="row footer-menu">
 						<div class="col-6">
@@ -1648,13 +1656,15 @@
 		</div>
 		<div id="whatsappBtn" class="callback-whatsapp-button" data-bs-toggle="tooltip" data-bs-placement="left"
 			data-bs-custom-class="custom-tooltip" data-bs-title="Whatsapp">
-			<a href="https://wa.me/79209518178?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62" target="blank">
+			<a href="https://wa.me/79209518178?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62"
+				target="blank">
 				<div class="callback-whatsapp-button-ico"></div>
 			</a>
 		</div>
 		<div id="telegramBtn" class="callback-telegram-button" data-bs-toggle="tooltip" data-bs-placement="left"
 			data-bs-custom-class="custom-tooltip" data-bs-title="Telegram">
-			<a href="https://t.me/+79209518178?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62" target="blank">
+			<a href="https://t.me/+79209518178?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62"
+				target="blank">
 				<div class="callback-telegram-button-ico"></div>
 			</a>
 		</div>
