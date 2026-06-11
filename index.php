@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -81,6 +81,12 @@
 						<li class="nav-item">
 							<a class="nav-link ico-button" target="_blank" href="https://t.me/+79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link ico-button" target="_blank" href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png" />
 							</a>
 						</li>
 
@@ -194,6 +200,8 @@
 						<li class="nav-item d-lg-none pb-4">
 							<a class="ico-button pe-2" target="_blank" href="https://t.me/+79209518178"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" /></a>
+							<a class="ico-button pe-2" target="_blank" href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8"><img
+									src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png" /></a>
 							<a class="ico-button pe-2" target="_blank"
 								href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" /></a>
@@ -301,6 +309,8 @@
 
 							<a class="ico-button pe-2" target="_blank" href="https://t.me/+79209518178"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" /></a>
+							<a class="ico-button pe-2" target="_blank" href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8"><img
+									src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png" /></a>
 							<a class="ico-button pe-2" target="_blank"
 								href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62"><img
 									src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" /></a>
@@ -566,6 +576,12 @@
 								<li class="nav-item">
 									<a class="nav-link ico-button" target="_blank" href="https://t.me/+79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
+									</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link ico-button" target="_blank" href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png" />
 									</a>
 								</li>
 
@@ -895,6 +911,12 @@
 								<li class="nav-item">
 									<a class="nav-link ico-button" target="_blank" href="https://t.me/+79209518178">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
+									</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link ico-button" target="_blank" href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png" />
 									</a>
 								</li>
 
@@ -1382,6 +1404,12 @@
 								</li>
 
 								<li class="nav-item">
+									<a class="nav-link ico-button" target="_blank" href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8">
+										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png" />
+									</a>
+								</li>
+
+								<li class="nav-item">
 									<a class="nav-link ico-button" target="_blank"
 										href="https://wa.me/79209518178?web=1&app_absent=1&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%AF%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20geometriyasten62">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp.svg" />
@@ -1519,6 +1547,11 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
 							</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link ico-button px-2" target="_blank" href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png" />
+							</a>
+						</li>
 						<!-- <li class="nav-item">
 							<a class="nav-link ico-button px-2" target="_blank" href="https://viber.click/79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/vider.svg" />
@@ -1575,6 +1608,11 @@
 						<li class="nav-item">
 							<a class="nav-link ico-button px-2" target="_blank" href="https://t.me/+79209518178">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram.svg" />
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link ico-button px-2" target="_blank" href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png" />
 							</a>
 						</li>
 						<!-- <li class="nav-item">
@@ -1742,6 +1780,13 @@
 				<div class="callback-telegram-button-ico"></div>
 			</a>
 		</div>
+		<div id="maxBtn" class="callback-max-button" data-bs-toggle="tooltip" data-bs-placement="left"
+			data-bs-custom-class="custom-tooltip" data-bs-title="MAX">
+			<a href="https://max.ru/u/f9LHodD0cOL8VdEDPTfENKr6p3PAE9JSxj-y5nDy7p7oEenkjiu-0i01HK8"
+				target="blank">
+				<div class="callback-max-button-ico"></div>
+			</a>
+		</div>
 	</div>
 	<!-- /Callback button HTML -->
 
@@ -1781,6 +1826,9 @@
 
 				document.getElementById('telegramBtn').style.top = "-240px";
 				document.getElementById('telegramBtn').style.opacity = "1";
+
+				document.getElementById('maxBtn').style.top = "-300px";
+				document.getElementById('maxBtn').style.opacity = "1";
 			} else {
 				document.getElementById('callbackBtn').style.animation = "waves linear 2s infinite";
 				document.getElementById('btnIco').style.animation = "change linear 16s infinite";
@@ -1807,6 +1855,9 @@
 
 				document.getElementById('telegramBtn').style.top = "0px";
 				document.getElementById('telegramBtn').style.opacity = "0";
+
+				document.getElementById('maxBtn').style.top = "0px";
+				document.getElementById('maxBtn').style.opacity = "0";
 			}
 		}
 	</script>
