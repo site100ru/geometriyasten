@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 window.addEventListener('scroll', function () {
   const section = document.querySelector('#carouselMain .carousel-background');
-  console.log('section: ', section);
   const scrolled = window.scrollY;
   if (section) {
     // Параллакс через изменение позиции фона

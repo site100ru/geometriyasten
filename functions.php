@@ -241,7 +241,7 @@ function get_portfolio_items_ajax()
       $carousel_id = $carousel_id_start + $index;
 
       $items_html .= '<div class="col-12 col-md-6 section-image mb-3 portfolio-item" data-portfolio-id="' . $item->ID . '">';
-      $items_html .= '<div id="carousel-' . $carousel_id . '" class="carousel slide" data-bs-ride="false" data-bs-interval="false">';
+      $items_html .= '<div id="carousel-' . $carousel_id . '" class="carousel slide h-100 w-100" data-bs-ride="false" data-bs-interval="false">';
       $items_html .= '<div class="carousel-inner rounded">';
 
       $is_first = true;
@@ -252,9 +252,9 @@ function get_portfolio_items_ajax()
         if ($image_url) {
           $active_class = $is_first ? ' active' : '';
           $items_html .= '<div class="carousel-item gallery-2691-wrapper' . $active_class . '">';
-          $items_html .= '<button class="gallery-2691" onclick="openGallery(\'carousel-' . $carousel_id . '\')">';
-          $items_html .= '<div class="single-product-img approximation img-wrapper position-relative">';
-          $items_html .= '<img src="' . $image_url[0] . '" class="d-block w-100" loading="lazy" alt="' . esc_attr($image_alt) . '" />';
+          $items_html .= '<button class="gallery-2691 w-100" onclick="openGallery(\'carousel-' . $carousel_id . '\')">';
+          $items_html .= '<div class="single-product-img approximation img-wrapper position-relative h-100">';
+          $items_html .= '<img src="' . $image_url[0] . '" class="d-block w-100 h-100" loading="lazy" alt="' . esc_attr($image_alt) . '" />';
           $items_html .= '<div class="overlay">';
           $items_html .= '<img src="' . get_template_directory_uri() . '/img/ico/zoom-icon.svg" alt="Zoom" class="zoom-icon" />';
           $items_html .= '</div>';
@@ -333,7 +333,7 @@ function get_portfolio_items_for_frontend($per_page = 6, $page = 1)
 
     if (!empty($gallery_images)) {
       $items_html .= '<div class="col-12 col-md-6 section-image mb-3 portfolio-item" data-portfolio-id="' . $item->ID . '">';
-      $items_html .= '<div id="carousel-' . $carousel_id . '" class="carousel slide" data-bs-ride="false" data-bs-interval="false">';
+      $items_html .= '<div id="carousel-' . $carousel_id . '" class="carousel slide h-100 w-100" data-bs-ride="false" data-bs-interval="false">';
       $items_html .= '<div class="carousel-inner rounded">';
 
       $is_first = true;
@@ -344,9 +344,9 @@ function get_portfolio_items_for_frontend($per_page = 6, $page = 1)
         if ($image_url) {
           $active_class = $is_first ? ' active' : '';
           $items_html .= '<div class="carousel-item gallery-2691-wrapper' . $active_class . '">';
-          $items_html .= '<button class="gallery-2691" onclick="openGallery(\'carousel-' . $carousel_id . '\')">';
-          $items_html .= '<div class="single-product-img approximation img-wrapper position-relative">';
-          $items_html .= '<img src="' . $image_url[0] . '" class="d-block w-100" loading="lazy" alt="' . esc_attr($image_alt) . '" />';
+          $items_html .= '<button class="gallery-2691 w-100" onclick="openGallery(\'carousel-' . $carousel_id . '\')">';
+          $items_html .= '<div class="single-product-img approximation img-wrapper position-relative h-100">';
+          $items_html .= '<img src="' . $image_url[0] . '" class="d-block w-100 h-100" loading="lazy" alt="' . esc_attr($image_alt) . '" />';
           $items_html .= '<div class="overlay">';
           $items_html .= '<img src="' . get_template_directory_uri() . '/img/ico/zoom-icon.svg" alt="Zoom" class="zoom-icon" />';
           $items_html .= '</div>';

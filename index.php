@@ -885,7 +885,7 @@
 
 					<br />
 
-					<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#callbackModal">
+					<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#discountModal">
 						Получить скидку
 					</button>
 
@@ -935,9 +935,9 @@
 							<!-- .shadow -->
 							<div class="carousel-item gallery-2691-wrapper active">
 								<button class="gallery-2691" onclick="openGallery('carousel-2691')">
-									<div class="single-product-img approximation img-wrapper position-relative">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/about.jpg" class="d-block w-100"
-											loading="lazy" alt="О нашей компании" />
+									<div class="single-product-img approximation">
+										<img src="https://geometriyasten62.ru/wp-content/uploads/2025/08/1.webp" class="d-block w-100"
+											loading="lazy" alt="ГеометрияСтен" />
 										<div class="overlay">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg" alt="Zoom"
 												class="zoom-icon" />
@@ -945,12 +945,27 @@
 									</div>
 								</button>
 							</div>
+							
 							<div class="carousel-item gallery-2691-wrapper">
 								<button class="gallery-2691" onclick="openGallery('carousel-2691')">
 									<div class="single-product-img approximation">
 										<img
-											src="<?php echo get_template_directory_uri(); ?>/img/single-product-img/single-product-img-1.jpg"
-											class="d-block w-100" loading="lazy" alt="Наша команда" />
+											src="https://geometriyasten62.ru/wp-content/uploads/2025/08/2.webp"
+											class="d-block w-100" loading="lazy" alt="ГеометрияСтен" />
+										<div class="overlay">
+											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg" alt="Zoom"
+												class="zoom-icon" />
+										</div>
+									</div>
+								</button>
+							</div>
+							
+							<div class="carousel-item gallery-2691-wrapper">
+								<button class="gallery-2691" onclick="openGallery('carousel-2691')">
+									<div class="single-product-img approximation">
+										<img
+											src="https://geometriyasten62.ru/wp-content/uploads/2025/08/3.webp"
+											class="d-block w-100" loading="lazy" alt="ГеометрияСтен" />
 										<div class="overlay">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/ico/zoom-icon.svg" alt="Zoom"
 												class="zoom-icon" />
@@ -1338,7 +1353,8 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6"></div>
-				<div class="col-md-6">
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
 					<h2 class="mb-3">Остались вопросы?</h2>
 
 					<p class="order-description mb-3">
@@ -1615,6 +1631,46 @@
 			</div>
 		</footer>
 	</section>
+	
+	<!-- Форма получения скидки -->
+	<div class="modal fade" id="discountModal" tabindex="-1" aria-labelledby="discountModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<form method="post" action="<?php echo get_template_directory_uri(); ?>/mails/callback-mail.php"
+				  class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="discountModalLabel">Получить скидку</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col">
+							<p class="mb-3">
+								<small>Укажите ссылку на более выгодное предложение и мы сделаем Вам предложение еще лучше! Заполните форму и мы свяжемся с Вами в ближайшее время.</small>
+							</p>
+						</div>
+					</div>
+					<div class="row mb-3">
+						<div class="col-md-6 mb-3 mb-md-0">
+							<input type="text" name="name" class="form-control" placeholder="Ваше имя" />
+						</div>
+						<div class="col-md-6">
+							<input type="text" name="tel" class="form-control telMask" placeholder="Ваш телефон*" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<input type="url" name="link" class="form-control" placeholder="Ссылка на предложение конкурента" />
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-lg btn-corporate-color-1 mx-auto">
+						Получить скидку
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
 
 	<!-- Callback Modal -->
 	<div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
