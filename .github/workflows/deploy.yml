@@ -11,9 +11,19 @@ jobs:
       - name: Connect to server
         uses: appleboy/ssh-action@v0.1.10
         with:
-          host: ${{ secrets.REGRU_HOST }}
-          username: ${{ secrets.REGRU_USER }}
-          key: ${{ secrets.REGRU_KEY }}
+          host: ${{ secrets.MOZAIKATEMPLATE_HOST }}
+          username: ${{ secrets.MOZAIKATEMPLATE_USER }}
+          key: ${{ secrets.MOZAIKATEMPLATE_KEY }}
           script: |
-            cd /var/www/u1538455/data/www/geometriyasten62.ru/wp-content/themes/geometriyasten
+            #Переключаемся в нужную папку
+            cd ~/geometriyasten62.ru/public_html/wp-content/themes/geometriyasten
+            
+            #Клинируем репозиторий в папку (только для первой выгрузки!!!)
+            #git clone https://github.com/site100ru/geometriyasten.git .
+            
+            #Клинируем репозиторий в папку
             git pull
+            
+            #Если кто то изменил файлы на сервере минуя GitHub, перезаписываем версию на сервере из GitHub
+            #git reset --hard HEAD
+            #git pull origin main
