@@ -1184,7 +1184,7 @@ img {
 }
 
 .callback-button:hover {
-	background: var(--color-accent-hover);
+	background: #296cb9;
 }
 
 .onsale {
