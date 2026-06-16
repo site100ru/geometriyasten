@@ -1485,7 +1485,7 @@ img {
 }
 
 .callback-form-button:hover {
-	background: var(--color-accent-hover);
+	background: #296cb9;
 	;
 }
 
@@ -1517,7 +1517,7 @@ img {
 }
 
 .callback-phone-button:hover {
-	background: var(--color-accent-hover);
+	background: #296cb9;
 	;
 }
 
@@ -1548,7 +1548,7 @@ img {
 }
 
 .callback-whatsapp-button:hover {
-	background: var(--color-accent-hover);
+	background: #296cb9;
 }
 
 .callback-whatsapp-button-ico {
@@ -1578,7 +1578,7 @@ img {
 }
 
 .callback-telegram-button:hover {
-	background: var(--color-accent-hover);
+	background: #296cb9;
 }
 
 .callback-telegram-button-ico {
@@ -1608,7 +1608,7 @@ img {
 }
 
 .callback-max-button:hover {
-	background: var(--color-accent-hover);
+	background: #296cb9;
 }
 
 .callback-max-button-ico {
