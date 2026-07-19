@@ -188,7 +188,7 @@
 								<span>гор. Рязань, ул. Типанова 2</span>
 							</div>
 
-							<a class="top-menu-tel nav-link fw-bold" href="tel:79209518178">+7 920 951-81-78</a>
+							<a class="top-menu-tel nav-link fw-bold" href="tel:+79209518178">+7 920 951-81-78</a>
 							<div class="mb-2 d-flex time-header-icon">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/clock-ico.svg" style="width: 10px"
 									class="me-1" />
