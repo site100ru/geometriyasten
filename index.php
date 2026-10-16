@@ -1,4 +1,14 @@
-﻿<!DOCTYPE html>
+<?php
+	session_start();
+
+	// Если форма только что отправлена (mails/callback-mail.php поставил флаг win),
+	// показываем сообщение о результате отправки
+	if (isset($_SESSION['win'])) {
+		unset($_SESSION['win']);
+		$display = "block";
+	} else $display = "none";
+?>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -1758,6 +1768,21 @@
 		</div>
 	</div>
 	<!-- /Callback Modal -->
+
+	<!-- Сообщение о результате отправки формы (закрывается кликом) -->
+	<div id="message-wrapper" style="display: <?php echo $display; ?>;" onclick="f1();">
+		<div id="background-msg"></div>
+		<div id="message">
+			<?php echo isset($_SESSION['recaptcha']) ? $_SESSION['recaptcha'] : '';
+			unset($_SESSION['recaptcha']); ?>
+		</div>
+	</div>
+	<script>
+		function f1() {
+			document.getElementById("message-wrapper").style.display = "none";
+		}
+	</script>
+	<!-- /Сообщение о результате отправки формы -->
 
 
 	<!-- Callback button HTML -->
