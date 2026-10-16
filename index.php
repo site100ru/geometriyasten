@@ -1710,6 +1710,9 @@
 							<input type="url" name="link" class="form-control" placeholder="Ссылка на предложение конкурента" />
 						</div>
 					</div>
+					<!-- Капча «Пример на сложение» (как работает — см. mails/captcha.php).
+						 Картинку подставляет скрипт внизу страницы при открытии окна,
+						 клик по картинке — новый пример. Ответ проверяет mails/callback-mail.php -->
 					<div class="row mt-3">
 						<div class="col d-flex align-items-center gap-2">
 							<img alt="Пример" class="captchaImg" width="120" height="40" title="Обновить пример" style="cursor: pointer;" />
@@ -1752,6 +1755,9 @@
 							<input type="text" name="tel" class="form-control telMask" placeholder="Ваш телефон*" required />
 						</div>
 					</div>
+					<!-- Капча «Пример на сложение» (как работает — см. mails/captcha.php).
+						 Картинку подставляет скрипт внизу страницы при открытии окна,
+						 клик по картинке — новый пример. Ответ проверяет mails/callback-mail.php -->
 					<div class="row mt-3">
 						<div class="col d-flex align-items-center gap-2">
 							<img alt="Пример" class="captchaImg" width="120" height="40" title="Обновить пример" style="cursor: pointer;" />
@@ -2106,17 +2112,33 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/telMask.js"></script>
 
 	<script>
-		// Пример на сложение в формах: картинка грузится при открытии окна
-		// (новый пример каждый раз), а по клику на неё пример меняется
+		// КАПЧА «Пример на сложение» в формах.
+		// Подробное описание всей схемы — в начале файла mails/captcha.php.
+		//
+		// Задача этого скрипта — вовремя показать картинку с примером:
+		//   - при каждом открытии окна с формой — новый пример;
+		//   - по клику на картинку — тоже новый пример (если плохо видно цифры).
+		// Картинку рисует mails/captcha.php, он же запоминает правильный ответ.
+		//
+		// Почему картинка не грузится сразу вместе со страницей: правильным
+		// считается ответ на последний показанный пример. Если бы картинки
+		// в обоих окнах загрузились сразу, ответ из первого окна уже не подошёл бы.
+
+		// Перебираем все модальные окна на странице
 		document.querySelectorAll('.modal').forEach(function (modal) {
+			// Ищем в окне картинку капчи; если её нет — это окно без капчи, пропускаем
 			var img = modal.querySelector('.captchaImg');
 			if (!img) return;
 
+			// Загружает новый пример и очищает поле ответа
 			function refreshCaptcha() {
+				// "?" + Date.now() добавляет к адресу текущее время, чтобы адрес
+				// каждый раз был новым и браузер не показал старую картинку из кеша
 				img.src = '<?php echo get_template_directory_uri(); ?>/mails/captcha.php?' + Date.now();
 				modal.querySelector('input[name="captcha"]').value = '';
 			}
 
+			// show.bs.modal — событие Bootstrap «окно начинает открываться»
 			modal.addEventListener('show.bs.modal', refreshCaptcha);
 			img.addEventListener('click', refreshCaptcha);
 		});
