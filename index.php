@@ -1692,12 +1692,18 @@
 							<input type="text" name="name" class="form-control" placeholder="Ваше имя" />
 						</div>
 						<div class="col-md-6">
-							<input type="text" name="tel" class="form-control telMask" placeholder="Ваш телефон*" />
+							<input type="text" name="tel" class="form-control telMask" placeholder="Ваш телефон*" required />
 						</div>
 					</div>
 					<div class="row">
 						<div class="col">
 							<input type="url" name="link" class="form-control" placeholder="Ссылка на предложение конкурента" />
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col d-flex align-items-center gap-2">
+							<img alt="Пример" class="captchaImg" width="120" height="40" title="Обновить пример" style="cursor: pointer;" />
+							<input type="text" name="captcha" class="form-control" inputmode="numeric" maxlength="2" autocomplete="off" placeholder="Ответ на пример*" required />
 						</div>
 					</div>
 				</div>
@@ -1733,7 +1739,13 @@
 							<input type="text" name="name" class="form-control" placeholder="Ваше имя" />
 						</div>
 						<div class="col-md-6">
-							<input type="text" name="tel" class="form-control telMask" placeholder="Ваш телефон*" />
+							<input type="text" name="tel" class="form-control telMask" placeholder="Ваш телефон*" required />
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col d-flex align-items-center gap-2">
+							<img alt="Пример" class="captchaImg" width="120" height="40" title="Обновить пример" style="cursor: pointer;" />
+							<input type="text" name="captcha" class="form-control" inputmode="numeric" maxlength="2" autocomplete="off" placeholder="Ответ на пример*" required />
 						</div>
 					</div>
 				</div>
@@ -2067,6 +2079,23 @@
 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/inputmask.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/telMask.js"></script>
+
+	<script>
+		// Пример на сложение в формах: картинка грузится при открытии окна
+		// (новый пример каждый раз), а по клику на неё пример меняется
+		document.querySelectorAll('.modal').forEach(function (modal) {
+			var img = modal.querySelector('.captchaImg');
+			if (!img) return;
+
+			function refreshCaptcha() {
+				img.src = '<?php echo get_template_directory_uri(); ?>/mails/captcha.php?' + Date.now();
+				modal.querySelector('input[name="captcha"]').value = '';
+			}
+
+			modal.addEventListener('show.bs.modal', refreshCaptcha);
+			img.addEventListener('click', refreshCaptcha);
+		});
+	</script>
 
 	<script
 		type="text/javascript"> (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } } k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(103178591, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); </script>
