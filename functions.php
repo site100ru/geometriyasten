@@ -394,3 +394,38 @@ function has_more_portfolio_items($page = 1, $per_page = 6)
   $total_count = count($total_portfolio);
   return ($page * $per_page) < $total_count;
 }
+
+// Настройки Telegram-бота в «Внешний вид → Настроить» (Customizer).
+// Токен и ID чата хранятся в базе данных, а не в коде, и читаются
+// в mails/callback-mail.php через get_theme_mod().
+function geometriyasten_telegram_customize_register($wp_customize)
+{
+  $wp_customize->add_section('geometriyasten_telegram', array(
+    'title'       => 'Telegram-бот для заявок',
+    'description' => 'Куда отправлять заявки с форм сайта. Если токен или ID чата не заполнены, заявки приходят только на почту.',
+    'priority'    => 200,
+  ));
+
+  // Токен бота — выдаёт @BotFather, вид: 1234567890:AAE...
+  $wp_customize->add_setting('geometriyasten_telegram_token', array(
+    'default'           => '',
+    'sanitize_callback' => 'sanitize_text_field',
+  ));
+  $wp_customize->add_control('geometriyasten_telegram_token', array(
+    'label'   => 'API-токен бота',
+    'section' => 'geometriyasten_telegram',
+    'type'    => 'text',
+  ));
+
+  // ID чата или группы, куда бот пишет заявки (у групп начинается с минуса)
+  $wp_customize->add_setting('geometriyasten_telegram_chat_id', array(
+    'default'           => '',
+    'sanitize_callback' => 'sanitize_text_field',
+  ));
+  $wp_customize->add_control('geometriyasten_telegram_chat_id', array(
+    'label'   => 'ID чата',
+    'section' => 'geometriyasten_telegram',
+    'type'    => 'text',
+  ));
+}
+add_action('customize_register', 'geometriyasten_telegram_customize_register');

@@ -1,12 +1,19 @@
 <?php
 session_start();
 
+// Подключаем WordPress, чтобы прочитать настройки из «Внешний вид → Настроить».
+// Этот файл открывается напрямую (не через тему), поэтому сам WordPress
+// здесь не загружен. dirname(__DIR__, 4) — папка сайта, где лежит wp-load.php
+// (на 4 уровня выше папки mails: mails → тема → themes → wp-content → сайт).
+require_once dirname(__DIR__, 4) . '/wp-load.php';
+
 // Если существует переменная POST, то обрабатываем форму
 if ( $_POST ) {
 
-	// Токен и ID чата для Telegram бота
-	$token = "8048170459:AAFZU-QEwi-56er82KW7011wIJppT4NN66A";
-	$chat_id = "-4839175389";
+	// Токен и ID чата для Telegram бота — задаются в админке:
+	// «Внешний вид → Настроить → Telegram-бот для заявок» (см. functions.php)
+	$token = trim( get_theme_mod( 'geometriyasten_telegram_token', '' ) );
+	$chat_id = trim( get_theme_mod( 'geometriyasten_telegram_chat_id', '' ) );
 
 	// Получаем данные из формы
 	$name = isset($_POST['name']) && $_POST['name'] ? $_POST['name'] : 'Не указано';
@@ -94,9 +101,12 @@ if ( $_POST ) {
 	// Отправляем на email
 	$email_sent = mail("vasilyev-r@mail.ru, sidorov-vv3@mail.ru", "Заявка на вызов специалиста с сайта geometriyasten62.ru", $email_message);
 
-	// Отправляем в Telegram
-	$telegram_url = "https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&text=" . urlencode($message);
-	$telegram_sent = file_get_contents($telegram_url);
+	// Отправляем в Telegram (только если токен и ID чата заполнены в настройках)
+	$telegram_sent = false;
+	if ( $token !== '' && $chat_id !== '' ) {
+		$telegram_url = "https://api.telegram.org/bot{$token}/sendMessage?chat_id=" . urlencode($chat_id) . "&text=" . urlencode($message);
+		$telegram_sent = file_get_contents($telegram_url);
+	}
 
 	// Проверяем успешность отправки
 	if ($email_sent || $telegram_sent) {
