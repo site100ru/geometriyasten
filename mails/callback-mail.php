@@ -99,7 +99,7 @@ if ( $_POST ) {
 	}
 
 	// Отправляем на email
-	$email_sent = mail("vasilyev-r@yandex.ru, sidorov-vv3@mail.ru", "Заявка на вызов специалиста с сайта geometriyasten62.ru", $email_message);
+	$email_sent = mail("sidorov-vv3@mail.ru", "Заявка на вызов специалиста с сайта geometriyasten62.ru", $email_message);
 
 	// Отправляем в Telegram (только если токен и ID чата заполнены в настройках)
 	$telegram_sent = false;
